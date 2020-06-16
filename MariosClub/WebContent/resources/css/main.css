@@ -1,0 +1,164 @@
+
+div.content {
+	postion:relative;
+	padding: 40px;
+}
+
+div.footer {
+	
+	font-size: medium;
+	color: gray;
+}
+div.header {
+		position:relative;
+		text-align: center;
+		width: 100%;
+		background-color: red;
+		height: 40px;
+}
+
+div.toolbar {
+		position:relative;
+		padding-left: 400px;
+		top:40px;
+		
+}
+
+a.login {
+	position: absolute;
+	right: 10px;
+	font-family: cursive;
+	top: 10px;
+	color: white;
+}
+
+.formtable {
+	width: 800px;
+	padding: 10px;
+	border: 1px solid blue;
+}
+
+input[type=text] {
+	width: 250px;
+	
+}
+
+input[type=password] {
+	width: 250px;
+	
+}
+
+textarea {
+	width: 250px;
+	height: 300px;
+}
+
+.label {
+	text-align: right;
+	vertical-align: top;
+}
+
+.control {
+	margin-left: 10px;
+}
+
+.error{
+	font-size: medium;
+	color:red;
+	margin-left: 10px;
+}
+div.valid{
+	font-size: medium;
+	color:blue;
+	margin-left: 10px;
+}
+
+
+table.offers{
+	padding: 20px;
+	border:medium dashed gray;
+	border-radius: 20px;
+		
+}
+
+tr.width{
+	width: 100px;
+}
+
+tr.trbr{
+	border: 10px solid blue;
+	color: red;
+}
+
+a.title{
+	
+	color: white;
+	font-size: 2em;
+	
+}
+input.delete{
+	border-color: red;
+	font-family: cursive;
+}
+
+tr.border{
+	border: 2px dashed gray; 
+}
+
+td.name{
+	color:maroon;
+	font-family: cursive;
+	padding: 0px 10px;
+}
+table.offers td{
+	border-bottom: 1px dashed brown;
+}
+
+.message{
+	margin-bottom: 20px;
+	border-bottom: 1px dashed green;
+}
+
+span.subject{
+	font-size: large;
+	color: maroon;
+	font-weight: bolder;
+}
+
+span.messagebody{
+	display: block;
+	font-family: cursive;
+}
+span.name{
+	color: brown;
+}
+
+form.replyform{
+	padding: 20px;
+	border-radius: 10px;
+	display: none;
+}
+
+textarea.replyarea{
+	width: 400px;
+	height: 250px;
+	border-radius: 10px;
+	
+}
+
+input.replybutton{
+	display: block;
+	font-size: large;
+	border: 1px solid gray;
+	border-radius:10px; 
+}
+
+a.replylink:link{
+	color: maroon;
+}
+
+span.alert{
+	display: block;
+	font-weight: bolder;
+	color: green;
+}
